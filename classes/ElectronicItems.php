@@ -39,6 +39,8 @@ class ElectronicItems
             };
 
             $items = array_filter($this->items, $callback);
+        } else {
+            throw new Exception('This item does not exist in the list of allowed items');
         }
 
         return [

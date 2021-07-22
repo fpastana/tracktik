@@ -63,5 +63,5 @@ Sort the items by price and output the total pricing:<br>";
 print_r($sortedItems);
 
 echo "<br>That person's friend saw her with her new purchase and asked her how much the console and its controllers had cost her. Give the answer:<br>";
-$itemsByType = $electronicItems->getItemsByType('console');
+$itemsByType = $electronicItems->getItemsByType('aaa');
 print_r($itemsByType);
